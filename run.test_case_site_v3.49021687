@@ -1,0 +1,47 @@
+2021-10-27 10:33:56 CASE.RUN BEGINS HERE
+2021-10-27 10:33:56 RUN_MODEL BEGINS HERE
+2021-10-27 10:33:56 PRE_RUN_CHECK BEGINS HERE
+2021-10-27 10:34:01 NAMELIST CREATION BEGINS HERE
+Generating namelists for /global/cscratch1/sd/yazbeck/test_case_site_v3
+  2021-10-27 10:34:01 atm 
+Create namelist for component datm
+   Calling /global/u1/y/yazbeck/E3SM_code/components/data_comps/datm/cime_config/buildnml
+  2021-10-27 10:34:03 lnd 
+Create namelist for component elm
+   Calling /global/u1/y/yazbeck/E3SM_code/components/elm//cime_config/buildnml
+  2021-10-27 10:34:05 ice 
+Create namelist for component sice
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/sice/cime_config/buildnml
+  2021-10-27 10:34:05 ocn 
+Create namelist for component socn
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/socn/cime_config/buildnml
+  2021-10-27 10:34:05 rof 
+Create namelist for component mosart
+   Calling /global/u1/y/yazbeck/E3SM_code/components/mosart//cime_config/buildnml
+  2021-10-27 10:34:06 glc 
+Create namelist for component sglc
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/sglc/cime_config/buildnml
+  2021-10-27 10:34:06 wav 
+Create namelist for component swav
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/swav/cime_config/buildnml
+  2021-10-27 10:34:06 iac 
+Create namelist for component siac
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/siac/cime_config/buildnml
+  2021-10-27 10:34:06 esp 
+Create namelist for component sesp
+   Calling /global/u1/y/yazbeck/E3SM_code/components/stub_comps/sesp/cime_config/buildnml
+  2021-10-27 10:34:06 cpl 
+Create namelist for component drv
+   Calling /global/u1/y/yazbeck/E3SM_code/driver-mct/cime_config/buildnml
+2021-10-27 10:34:09 NAMELIST CREATION HAS FINISHED
+-------------------------------------------------------------------------
+ - Prestage required restarts into /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run
+ - Case input data directory (DIN_LOC_ROOT) is /global/cfs/cdirs/e3sm/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+2021-10-27 10:34:09 PRE_RUN_CHECK HAS FINISHED
+run command is srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1  
+2021-10-27 10:34:15 SAVE_PRERUN_PROVENANCE BEGINS HERE
+2021-10-27 10:34:25 SAVE_PRERUN_PROVENANCE HAS FINISHED
+2021-10-27 10:34:25 MODEL EXECUTION BEGINS HERE
+slurmstepd: error: *** JOB 49021687 ON nid02744 CANCELLED AT 2021-10-27T10:44:17 DUE TO TIME LIMIT ***

@@ -1,0 +1,1240 @@
+2021-10-15 08:32:01: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:01: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:02: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:02: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:02: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:03: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:03: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:03: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:04: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:04: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:08: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:08: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 0001-01-01  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:08: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:09: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:09: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:09: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:10: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:10: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:10: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:11: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:11: xmlchange success <command> ./xmlchange -file env_run.xml -id CONTINUE_RUN -val FALSE  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:12: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:12: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 37  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:12: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=debug  </command>
+ ---------------------------------------------------
+2021-10-15 08:32:13: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:20:00  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:02: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century -bgc_spinup on  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:03: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:03: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:03: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:04: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:04: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:08: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:08: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:08: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:10: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:10: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:10: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 0001-01-01  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:11: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:11: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:12: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:12: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:12: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:13: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:13: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:13: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:14: xmlchange success <command> ./xmlchange -file env_run.xml -id CONTINUE_RUN -val FALSE  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:14: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:14: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 37  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:15: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=debug  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:15: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:20:00  </command>
+ ---------------------------------------------------
+2021-10-15 08:34:19: case.setup starting 
+ ---------------------------------------------------
+2021-10-15 08:34:25: case.setup success 
+ ---------------------------------------------------
+2021-10-15 08:34:41: setup.clean starting 
+ ---------------------------------------------------
+2021-10-15 08:34:41: setup.clean success 
+ ---------------------------------------------------
+2021-10-15 08:34:44: case.setup starting 
+ ---------------------------------------------------
+2021-10-15 08:34:49: case.setup success 
+ ---------------------------------------------------
+2021-10-15 08:34:53: case.build starting 
+ ---------------------------------------------------
+2021-10-15 08:42:38: case.build success 
+ ---------------------------------------------------
+2021-10-15 08:46:25: case.submit starting 48496077
+ ---------------------------------------------------
+2021-10-15 08:46:25: case.submit success 48496077
+ ---------------------------------------------------
+2021-10-15 08:46:30: case.run starting 48496077
+ ---------------------------------------------------
+2021-10-15 08:47:00: model execution starting 48496077
+ ---------------------------------------------------
+2021-10-15 09:09:00: case.submit starting 48496316
+ ---------------------------------------------------
+2021-10-15 09:09:00: case.submit success 48496316
+ ---------------------------------------------------
+2021-10-15 09:09:04: case.run starting 48496316
+ ---------------------------------------------------
+2021-10-15 09:09:33: model execution starting 48496316
+ ---------------------------------------------------
+2021-10-15 09:42:43: case.setup starting 
+ ---------------------------------------------------
+2021-10-15 09:42:50: case.setup success 
+ ---------------------------------------------------
+2021-10-15 09:42:59: build.clean starting 
+ ---------------------------------------------------
+2021-10-15 09:43:03: build.clean success 
+ ---------------------------------------------------
+2021-10-15 09:43:06: case.build starting 
+ ---------------------------------------------------
+2021-10-15 09:48:54: case.build success 
+ ---------------------------------------------------
+2021-10-15 09:49:16: case.submit starting 48496804
+ ---------------------------------------------------
+2021-10-15 09:49:16: case.submit success 48496804
+ ---------------------------------------------------
+2021-10-15 09:49:21: case.run starting 48496804
+ ---------------------------------------------------
+2021-10-15 09:49:50: model execution starting 48496804
+ ---------------------------------------------------
+2021-10-15 09:55:04: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century -bgc_spinup on  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:04: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:05: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:06: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:07: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:08: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:08: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:08: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:09: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:10: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:10: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:10: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:11: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:11: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:11: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:12: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 0001-01-01  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:12: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:13: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:13: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:13: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:14: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:14: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:15: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:15: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:15: xmlchange success <command> ./xmlchange -file env_run.xml -id CONTINUE_RUN -val FALSE  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:16: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:16: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 37  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:17: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=debug  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:17: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2021-10-15 09:55:26: case.setup starting 
+ ---------------------------------------------------
+2021-10-15 09:55:31: case.setup success 
+ ---------------------------------------------------
+2021-10-15 09:55:41: case.build starting 
+ ---------------------------------------------------
+2021-10-15 09:55:58: case.build success 
+ ---------------------------------------------------
+2021-10-15 09:56:18: case.submit starting 48497034
+ ---------------------------------------------------
+2021-10-15 09:56:18: case.submit success 48497034
+ ---------------------------------------------------
+2021-10-15 09:56:25: case.run starting 48497034
+ ---------------------------------------------------
+2021-10-15 09:56:54: model execution starting 48497034
+ ---------------------------------------------------
+2021-10-15 10:38:32: case.setup starting 
+ ---------------------------------------------------
+2021-10-15 10:38:38: case.setup success 
+ ---------------------------------------------------
+2021-10-15 10:38:47: build.clean starting 
+ ---------------------------------------------------
+2021-10-15 10:38:49: build.clean success 
+ ---------------------------------------------------
+2021-10-15 10:38:53: case.build starting 
+ ---------------------------------------------------
+2021-10-15 10:40:40: case.build error 
+ERROR: BUILD FAIL: build e3sm failed, cat /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.bldlog.211015-103853
+ ---------------------------------------------------
+2021-10-15 10:52:15: case.build starting 
+ ---------------------------------------------------
+2021-10-15 10:57:12: case.build success 
+ ---------------------------------------------------
+2021-10-15 11:22:49: case.submit starting 48500204
+ ---------------------------------------------------
+2021-10-15 11:22:49: case.submit success 48500204
+ ---------------------------------------------------
+2021-10-15 11:22:54: case.run starting 48500204
+ ---------------------------------------------------
+2021-10-15 11:23:24: model execution starting 48500204
+ ---------------------------------------------------
+2021-10-15 13:56:19: case.setup starting 
+ ---------------------------------------------------
+2021-10-15 13:56:25: case.setup success 
+ ---------------------------------------------------
+2021-10-15 13:56:32: build.clean starting 
+ ---------------------------------------------------
+2021-10-15 13:56:36: build.clean success 
+ ---------------------------------------------------
+2021-10-15 13:56:40: case.build starting 
+ ---------------------------------------------------
+2021-10-15 14:02:27: case.build success 
+ ---------------------------------------------------
+2021-10-18 12:17:08: case.setup starting 
+ ---------------------------------------------------
+2021-10-18 12:17:15: case.setup success 
+ ---------------------------------------------------
+2021-10-18 12:17:31: build.clean starting 
+ ---------------------------------------------------
+2021-10-18 12:17:35: build.clean success 
+ ---------------------------------------------------
+2021-10-18 12:17:38: case.build starting 
+ ---------------------------------------------------
+2021-10-18 12:23:34: case.build success 
+ ---------------------------------------------------
+2021-10-19 11:11:19: case.setup starting 
+ ---------------------------------------------------
+2021-10-19 11:11:26: case.setup success 
+ ---------------------------------------------------
+2021-10-19 11:11:35: build.clean starting 
+ ---------------------------------------------------
+2021-10-19 11:11:39: build.clean success 
+ ---------------------------------------------------
+2021-10-19 11:11:42: case.build starting 
+ ---------------------------------------------------
+2021-10-19 11:17:59: case.build success 
+ ---------------------------------------------------
+2021-10-19 13:32:39: case.setup starting 
+ ---------------------------------------------------
+2021-10-19 13:32:46: case.setup success 
+ ---------------------------------------------------
+2021-10-19 13:32:53: build.clean starting 
+ ---------------------------------------------------
+2021-10-19 13:32:58: build.clean success 
+ ---------------------------------------------------
+2021-10-19 13:33:01: case.build starting 
+ ---------------------------------------------------
+2021-10-19 13:34:49: case.build error 
+
+ ---------------------------------------------------
+2021-10-19 13:35:35: case.setup starting 
+ ---------------------------------------------------
+2021-10-19 13:35:42: case.setup success 
+ ---------------------------------------------------
+2021-10-19 13:35:45: build.clean starting 
+ ---------------------------------------------------
+2021-10-19 13:35:47: build.clean success 
+ ---------------------------------------------------
+2021-10-19 13:35:50: case.build starting 
+ ---------------------------------------------------
+2021-10-19 13:42:14: case.build success 
+ ---------------------------------------------------
+2021-10-21 10:39:10: case.submit starting 
+ ---------------------------------------------------
+2021-10-21 10:39:10: case.submit error 
+ERROR: Command: 'sbatch --time 00:10:00 -q debug --account m2467 .case.run --resubmit' failed with error 'sbatch: error: Batch job submission failed: Unable to contact slurm controller (connect failure)' from dir '/global/cscratch1/sd/yazbeck/test_case_site_v3'
+ ---------------------------------------------------
+2021-10-21 10:39:39: case.setup starting 
+ ---------------------------------------------------
+2021-10-21 10:39:45: case.setup success 
+ ---------------------------------------------------
+2021-10-21 10:39:52: build.clean starting 
+ ---------------------------------------------------
+2021-10-21 10:39:58: build.clean success 
+ ---------------------------------------------------
+2021-10-21 10:40:01: case.build starting 
+ ---------------------------------------------------
+2021-10-21 10:45:36: case.build success 
+ ---------------------------------------------------
+2021-10-21 10:46:59: case.submit starting 48727920
+ ---------------------------------------------------
+2021-10-21 10:46:59: case.submit success 48727920
+ ---------------------------------------------------
+2021-10-21 10:47:04: case.run starting 48727920
+ ---------------------------------------------------
+2021-10-21 10:47:42: model execution starting 48727920
+ ---------------------------------------------------
+2021-10-21 13:31:39: case.setup starting 
+ ---------------------------------------------------
+2021-10-21 13:31:45: case.setup success 
+ ---------------------------------------------------
+2021-10-21 13:32:01: build.clean starting 
+ ---------------------------------------------------
+2021-10-21 13:32:05: build.clean success 
+ ---------------------------------------------------
+2021-10-21 13:32:08: case.build starting 
+ ---------------------------------------------------
+2021-10-21 13:36:50: case.build error 
+ERROR: BUILD FAIL: build e3sm failed, cat /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.bldlog.211021-133208
+ ---------------------------------------------------
+2021-10-21 13:39:05: case.build starting 
+ ---------------------------------------------------
+2021-10-21 13:40:04: case.build success 
+ ---------------------------------------------------
+2021-10-21 16:03:55: case.setup starting 
+ ---------------------------------------------------
+2021-10-21 16:04:01: case.setup success 
+ ---------------------------------------------------
+2021-10-21 16:04:27: build.clean starting 
+ ---------------------------------------------------
+2021-10-21 16:04:31: build.clean success 
+ ---------------------------------------------------
+2021-10-21 16:04:35: case.build starting 
+ ---------------------------------------------------
+2021-10-21 16:10:55: case.build success 
+ ---------------------------------------------------
+2021-10-22 08:31:30: case.setup starting 
+ ---------------------------------------------------
+2021-10-22 08:31:36: case.setup success 
+ ---------------------------------------------------
+2021-10-22 08:31:44: build.clean starting 
+ ---------------------------------------------------
+2021-10-22 08:31:49: build.clean success 
+ ---------------------------------------------------
+2021-10-22 08:31:54: case.build starting 
+ ---------------------------------------------------
+2021-10-22 08:37:40: case.build success 
+ ---------------------------------------------------
+2021-10-22 11:25:15: case.setup starting 
+ ---------------------------------------------------
+2021-10-22 11:25:21: case.setup success 
+ ---------------------------------------------------
+2021-10-22 11:25:31: build.clean starting 
+ ---------------------------------------------------
+2021-10-22 11:25:35: build.clean success 
+ ---------------------------------------------------
+2021-10-22 11:25:39: case.build starting 
+ ---------------------------------------------------
+2021-10-22 11:31:51: case.build success 
+ ---------------------------------------------------
+2021-10-22 11:59:10: case.setup starting 
+ ---------------------------------------------------
+2021-10-22 11:59:16: case.setup success 
+ ---------------------------------------------------
+2021-10-22 11:59:19: build.clean starting 
+ ---------------------------------------------------
+2021-10-22 11:59:22: build.clean success 
+ ---------------------------------------------------
+2021-10-22 11:59:26: case.build starting 
+ ---------------------------------------------------
+2021-10-22 12:05:45: case.build success 
+ ---------------------------------------------------
+2021-10-22 13:06:14: case.setup starting 
+ ---------------------------------------------------
+2021-10-22 13:06:21: case.setup success 
+ ---------------------------------------------------
+2021-10-22 13:06:25: build.clean starting 
+ ---------------------------------------------------
+2021-10-22 13:06:29: build.clean success 
+ ---------------------------------------------------
+2021-10-22 13:06:32: case.build starting 
+ ---------------------------------------------------
+2021-10-22 13:13:24: case.build success 
+ ---------------------------------------------------
+2021-10-22 15:53:18: case.setup starting 
+ ---------------------------------------------------
+2021-10-22 15:53:23: case.setup success 
+ ---------------------------------------------------
+2021-10-22 15:53:29: build.clean starting 
+ ---------------------------------------------------
+2021-10-22 15:53:33: build.clean success 
+ ---------------------------------------------------
+2021-10-22 15:53:36: case.build starting 
+ ---------------------------------------------------
+2021-10-22 15:58:57: case.build success 
+ ---------------------------------------------------
+2021-10-22 16:01:29: case.submit starting 48779108
+ ---------------------------------------------------
+2021-10-22 16:01:29: case.submit success 48779108
+ ---------------------------------------------------
+2021-10-22 16:01:39: case.run starting 48779108
+ ---------------------------------------------------
+2021-10-22 16:02:09: model execution starting 48779108
+ ---------------------------------------------------
+2021-10-22 16:02:23: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-22 16:02:23: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.48779108.211022-160139
+ ---------------------------------------------------
+2021-10-25 10:06:08: case.submit starting 48921630
+ ---------------------------------------------------
+2021-10-25 10:06:08: case.submit success 48921630
+ ---------------------------------------------------
+2021-10-25 10:06:15: case.run starting 48921630
+ ---------------------------------------------------
+2021-10-25 10:06:28: case.setup starting 
+ ---------------------------------------------------
+2021-10-25 10:06:35: case.setup success 
+ ---------------------------------------------------
+2021-10-25 10:06:45: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 10:06:51: build.clean success 
+ ---------------------------------------------------
+2021-10-25 10:06:54: case.build starting 
+ ---------------------------------------------------
+2021-10-25 10:14:06: case.build success 
+ ---------------------------------------------------
+2021-10-25 10:14:27: case.submit starting 48921802
+ ---------------------------------------------------
+2021-10-25 10:14:27: case.submit success 48921802
+ ---------------------------------------------------
+2021-10-25 10:14:35: case.run starting 48921802
+ ---------------------------------------------------
+2021-10-25 10:15:15: model execution starting 48921802
+ ---------------------------------------------------
+2021-10-25 10:18:24: case.submit starting 48921886
+ ---------------------------------------------------
+2021-10-25 10:18:24: case.submit success 48921886
+ ---------------------------------------------------
+2021-10-25 10:18:35: case.run starting 48921886
+ ---------------------------------------------------
+2021-10-25 10:19:14: model execution starting 48921886
+ ---------------------------------------------------
+2021-10-25 10:21:44: case.submit starting 48922099
+ ---------------------------------------------------
+2021-10-25 10:21:44: case.submit success 48922099
+ ---------------------------------------------------
+2021-10-25 10:21:51: case.run starting 48922099
+ ---------------------------------------------------
+2021-10-25 10:22:31: model execution starting 48922099
+ ---------------------------------------------------
+2021-10-25 10:24:57: case.submit starting 48922195
+ ---------------------------------------------------
+2021-10-25 10:24:57: case.submit success 48922195
+ ---------------------------------------------------
+2021-10-25 10:25:04: case.run starting 48922195
+ ---------------------------------------------------
+2021-10-25 10:25:43: model execution starting 48922195
+ ---------------------------------------------------
+2021-10-25 10:28:18: case.submit starting 48922249
+ ---------------------------------------------------
+2021-10-25 10:28:18: case.submit success 48922249
+ ---------------------------------------------------
+2021-10-25 10:28:25: case.run starting 48922249
+ ---------------------------------------------------
+2021-10-25 10:29:15: model execution starting 48922249
+ ---------------------------------------------------
+2021-10-25 10:31:18: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 10:31:21: build.clean success 
+ ---------------------------------------------------
+2021-10-25 10:31:25: case.build starting 
+ ---------------------------------------------------
+2021-10-25 10:38:41: case.build success 
+ ---------------------------------------------------
+2021-10-25 10:38:56: case.submit starting 48922511
+ ---------------------------------------------------
+2021-10-25 10:38:56: case.submit success 48922511
+ ---------------------------------------------------
+2021-10-25 10:39:01: case.run starting 48922511
+ ---------------------------------------------------
+2021-10-25 10:39:30: model execution starting 48922511
+ ---------------------------------------------------
+2021-10-25 10:39:51: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-25 10:39:51: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.48922511.211025-103901
+ ---------------------------------------------------
+2021-10-25 10:46:08: case.build starting 
+ ---------------------------------------------------
+2021-10-25 10:46:12: case.build error 
+
+ ---------------------------------------------------
+2021-10-25 10:46:17: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 10:46:21: build.clean success 
+ ---------------------------------------------------
+2021-10-25 10:46:26: case.build starting 
+ ---------------------------------------------------
+2021-10-25 10:54:10: case.build success 
+ ---------------------------------------------------
+2021-10-25 10:54:44: case.submit starting 48922862
+ ---------------------------------------------------
+2021-10-25 10:54:44: case.submit success 48922862
+ ---------------------------------------------------
+2021-10-25 10:55:19: case.run starting 48922862
+ ---------------------------------------------------
+2021-10-25 10:55:53: model execution starting 48922862
+ ---------------------------------------------------
+2021-10-25 10:59:03: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 10:59:07: build.clean success 
+ ---------------------------------------------------
+2021-10-25 10:59:56: case.build starting 
+ ---------------------------------------------------
+2021-10-25 11:07:15: case.build success 
+ ---------------------------------------------------
+2021-10-25 11:10:59: case.submit starting 48923392
+ ---------------------------------------------------
+2021-10-25 11:10:59: case.submit success 48923392
+ ---------------------------------------------------
+2021-10-25 11:11:38: case.run starting 48923392
+ ---------------------------------------------------
+2021-10-25 11:13:06: model execution starting 48923392
+ ---------------------------------------------------
+2021-10-25 11:14:25: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-25 11:14:26: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.48923392.211025-111138
+ ---------------------------------------------------
+2021-10-25 12:49:45: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 12:49:50: build.clean success 
+ ---------------------------------------------------
+2021-10-25 12:49:58: case.build starting 
+ ---------------------------------------------------
+2021-10-25 12:56:24: case.build success 
+ ---------------------------------------------------
+2021-10-25 12:56:49: case.submit starting 48926866
+ ---------------------------------------------------
+2021-10-25 12:56:49: case.submit success 48926866
+ ---------------------------------------------------
+2021-10-25 12:56:57: case.run starting 48926866
+ ---------------------------------------------------
+2021-10-25 12:57:31: model execution starting 48926866
+ ---------------------------------------------------
+2021-10-25 13:00:57: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 13:01:00: build.clean success 
+ ---------------------------------------------------
+2021-10-25 13:01:07: case.build starting 
+ ---------------------------------------------------
+2021-10-25 13:07:05: case.build success 
+ ---------------------------------------------------
+2021-10-25 13:07:23: case.submit starting 48927009
+ ---------------------------------------------------
+2021-10-25 13:07:23: case.submit success 48927009
+ ---------------------------------------------------
+2021-10-25 13:07:33: case.run starting 48927009
+ ---------------------------------------------------
+2021-10-25 13:09:12: model execution starting 48927009
+ ---------------------------------------------------
+2021-10-25 14:41:44: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century -bgc_spinup on  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:44: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:45: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:46: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:47: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:48: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:48: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:49: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:50: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:50: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:50: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:51: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:51: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:52: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:52: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:52: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:53: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:53: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 0001-01-01  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:54: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:54: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:54: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:55: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:55: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:56: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:56: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:57: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:57: xmlchange success <command> ./xmlchange -file env_run.xml -id CONTINUE_RUN -val FALSE  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:57: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:58: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 37  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:58: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=debug  </command>
+ ---------------------------------------------------
+2021-10-25 14:41:59: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:30:00  </command>
+ ---------------------------------------------------
+2021-10-25 14:42:21: case.submit starting 48929001
+ ---------------------------------------------------
+2021-10-25 14:42:21: case.submit success 48929001
+ ---------------------------------------------------
+2021-10-25 14:42:27: case.run starting 48929001
+ ---------------------------------------------------
+2021-10-25 14:42:57: model execution starting 48929001
+ ---------------------------------------------------
+2021-10-25 14:47:25: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 14:47:30: build.clean success 
+ ---------------------------------------------------
+2021-10-25 14:47:33: case.build starting 
+ ---------------------------------------------------
+2021-10-25 14:54:55: case.build success 
+ ---------------------------------------------------
+2021-10-25 14:57:09: case.submit starting 48929773
+ ---------------------------------------------------
+2021-10-25 14:57:09: case.submit success 48929773
+ ---------------------------------------------------
+2021-10-25 14:58:18: case.run starting 48929773
+ ---------------------------------------------------
+2021-10-25 14:58:52: model execution starting 48929773
+ ---------------------------------------------------
+2021-10-25 15:03:08: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 15:03:15: build.clean success 
+ ---------------------------------------------------
+2021-10-25 15:03:20: case.build starting 
+ ---------------------------------------------------
+2021-10-25 15:12:06: case.build success 
+ ---------------------------------------------------
+2021-10-25 15:50:19: case.submit starting 48931729
+ ---------------------------------------------------
+2021-10-25 15:50:19: case.submit success 48931729
+ ---------------------------------------------------
+2021-10-25 15:50:23: case.run starting 48931729
+ ---------------------------------------------------
+2021-10-25 15:50:53: model execution starting 48931729
+ ---------------------------------------------------
+2021-10-25 15:54:54: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 15:54:57: build.clean success 
+ ---------------------------------------------------
+2021-10-25 15:55:01: case.build starting 
+ ---------------------------------------------------
+2021-10-25 16:01:25: case.build success 
+ ---------------------------------------------------
+2021-10-25 16:05:07: case.submit starting 48932161
+ ---------------------------------------------------
+2021-10-25 16:05:07: case.submit success 48932161
+ ---------------------------------------------------
+2021-10-25 16:05:12: case.run starting 48932161
+ ---------------------------------------------------
+2021-10-25 16:05:41: model execution starting 48932161
+ ---------------------------------------------------
+2021-10-25 16:05:58: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-25 16:05:58: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.48932161.211025-160512
+ ---------------------------------------------------
+2021-10-25 16:43:22: build.clean starting 
+ ---------------------------------------------------
+2021-10-25 16:43:26: build.clean success 
+ ---------------------------------------------------
+2021-10-25 16:43:57: case.build starting 
+ ---------------------------------------------------
+2021-10-25 16:52:01: case.build success 
+ ---------------------------------------------------
+2021-10-25 16:52:16: case.submit starting 48934875
+ ---------------------------------------------------
+2021-10-25 16:52:16: case.submit success 48934875
+ ---------------------------------------------------
+2021-10-25 16:52:22: case.run starting 48934875
+ ---------------------------------------------------
+2021-10-25 16:52:53: model execution starting 48934875
+ ---------------------------------------------------
+2021-10-26 12:57:16: build.clean starting 
+ ---------------------------------------------------
+2021-10-26 12:57:22: build.clean success 
+ ---------------------------------------------------
+2021-10-26 12:57:26: xmlchange success <command> ./xmlchange -file env_run.xml -id ELM_BLDNML_OPTS -val -bgc bgc -nutrient cnp -nutrient_comp_pathway eca -soil_decomp century -bgc_spinup on  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:26: xmlchange success <command> ./xmlchange --id ATM_NCPL --val 24  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:26: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:27: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:27: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:27: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:28: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:28: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:29: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTASKS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ATM -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:30: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_CPL -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_LND -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ICE -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:31: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_OCN -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_GLC -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:32: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ROF -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_WAV -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id NTHRDS_ESP -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:33: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_TASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:34: xmlchange success <command> ./xmlchange -file env_mach_pes.xml -id MAX_MPITASKS_PER_NODE -val 1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:34: xmlchange success <command> ./xmlchange -file env_run.xml -id RUN_STARTDATE -val 0001-01-01  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:35: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_MODE -val CLMGSWP3v1  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:35: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_ALIGN -val 1901  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:35: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_START -val 1901  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:36: xmlchange success <command> ./xmlchange -file env_run.xml -id DATM_CLMNCEP_YR_END -val 1920  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:36: xmlchange success <command> ./xmlchange -file env_run.xml -id ATM_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:37: xmlchange success <command> ./xmlchange -file env_run.xml -id LND_DOMAIN_FILE -val domain_sparse_grids_Theresia_1site_c211015.nc  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:37: xmlchange success <command> ./xmlchange -file env_run.xml ATM_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:37: xmlchange success <command> ./xmlchange -file env_run.xml LND_DOMAIN_PATH=/global/cscratch1/sd/yazbeck/acme_scratch/cori-knl/user_data/  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:38: xmlchange success <command> ./xmlchange -file env_run.xml -id CONTINUE_RUN -val FALSE  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:38: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:39: xmlchange success <command> ./xmlchange -file env_run.xml -id STOP_N -val 37  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:39: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_QUEUE=debug  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:39: xmlchange success <command> ./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00  </command>
+ ---------------------------------------------------
+2021-10-26 12:57:43: case.setup starting 
+ ---------------------------------------------------
+2021-10-26 12:57:53: case.setup success 
+ ---------------------------------------------------
+2021-10-26 12:57:57: case.setup starting 
+ ---------------------------------------------------
+2021-10-26 12:58:05: case.setup success 
+ ---------------------------------------------------
+2021-10-26 12:58:10: build.clean starting 
+ ---------------------------------------------------
+2021-10-26 12:58:12: build.clean success 
+ ---------------------------------------------------
+2021-10-26 12:58:15: case.build starting 
+ ---------------------------------------------------
+2021-10-26 13:04:40: case.build success 
+ ---------------------------------------------------
+2021-10-26 13:06:13: case.submit starting 48966471
+ ---------------------------------------------------
+2021-10-26 13:06:13: case.submit success 48966471
+ ---------------------------------------------------
+2021-10-26 13:16:35: case.run starting 48966471
+ ---------------------------------------------------
+2021-10-26 13:17:19: model execution starting 48966471
+ ---------------------------------------------------
+2021-10-26 14:06:55: build.clean starting 
+ ---------------------------------------------------
+2021-10-26 14:06:59: build.clean success 
+ ---------------------------------------------------
+2021-10-26 14:07:03: case.build starting 
+ ---------------------------------------------------
+2021-10-26 14:12:58: case.build success 
+ ---------------------------------------------------
+2021-10-26 14:13:24: case.submit starting 48973224
+ ---------------------------------------------------
+2021-10-26 14:13:24: case.submit success 48973224
+ ---------------------------------------------------
+2021-10-26 14:13:29: case.run starting 48973224
+ ---------------------------------------------------
+2021-10-26 14:13:58: model execution starting 48973224
+ ---------------------------------------------------
+2021-10-26 14:14:17: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-26 14:14:17: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.48973224.211026-141329
+ ---------------------------------------------------
+2021-10-27 08:58:19: build.clean starting 
+ ---------------------------------------------------
+2021-10-27 08:58:23: build.clean success 
+ ---------------------------------------------------
+2021-10-27 08:58:26: case.build starting 
+ ---------------------------------------------------
+2021-10-27 09:05:32: case.build success 
+ ---------------------------------------------------
+2021-10-27 09:06:01: case.submit starting 49018360
+ ---------------------------------------------------
+2021-10-27 09:06:01: case.submit success 49018360
+ ---------------------------------------------------
+2021-10-27 09:06:38: case.run starting 49018360
+ ---------------------------------------------------
+2021-10-27 09:07:16: model execution starting 49018360
+ ---------------------------------------------------
+2021-10-27 10:22:17: build.clean starting 
+ ---------------------------------------------------
+2021-10-27 10:22:22: build.clean success 
+ ---------------------------------------------------
+2021-10-27 10:22:27: case.build starting 
+ ---------------------------------------------------
+2021-10-27 10:30:44: case.build success 
+ ---------------------------------------------------
+2021-10-27 10:31:07: case.submit starting 49021687
+ ---------------------------------------------------
+2021-10-27 10:31:07: case.submit success 49021687
+ ---------------------------------------------------
+2021-10-27 10:33:56: case.run starting 49021687
+ ---------------------------------------------------
+2021-10-27 10:34:25: model execution starting 49021687
+ ---------------------------------------------------
+2021-10-27 12:18:49: case.setup starting 
+ ---------------------------------------------------
+2021-10-27 12:18:55: case.setup success 
+ ---------------------------------------------------
+2021-10-27 12:19:02: build.clean starting 
+ ---------------------------------------------------
+2021-10-27 12:19:06: build.clean success 
+ ---------------------------------------------------
+2021-10-27 12:19:11: case.build starting 
+ ---------------------------------------------------
+2021-10-27 12:19:20: case.build error 
+
+ ---------------------------------------------------
+2021-10-27 12:20:29: case.build starting 
+ ---------------------------------------------------
+2021-10-27 12:20:31: case.build error 
+
+ ---------------------------------------------------
+2021-10-27 12:24:22: case.build starting 
+ ---------------------------------------------------
+2021-10-27 12:30:28: case.build success 
+ ---------------------------------------------------
+2021-10-27 12:33:42: build.clean starting 
+ ---------------------------------------------------
+2021-10-27 12:33:45: build.clean success 
+ ---------------------------------------------------
+2021-10-27 12:33:49: case.build starting 
+ ---------------------------------------------------
+2021-10-27 12:39:49: case.build success 
+ ---------------------------------------------------
+2021-10-27 12:40:38: case.submit starting 49029562
+ ---------------------------------------------------
+2021-10-27 12:40:38: case.submit success 49029562
+ ---------------------------------------------------
+2021-10-27 12:40:43: case.run starting 49029562
+ ---------------------------------------------------
+2021-10-27 12:41:14: model execution starting 49029562
+ ---------------------------------------------------
+2021-10-27 12:41:34: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-27 12:41:34: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.49029562.211027-124043
+ ---------------------------------------------------
+2021-10-27 16:12:00: build.clean starting 
+ ---------------------------------------------------
+2021-10-27 16:12:04: build.clean success 
+ ---------------------------------------------------
+2021-10-27 16:12:18: case.build starting 
+ ---------------------------------------------------
+2021-10-27 16:18:25: case.build success 
+ ---------------------------------------------------
+2021-10-27 16:19:14: case.submit starting 49035930
+ ---------------------------------------------------
+2021-10-27 16:19:14: case.submit success 49035930
+ ---------------------------------------------------
+2021-10-27 16:26:21: case.submit starting 49035989
+ ---------------------------------------------------
+2021-10-27 16:26:21: case.submit success 49035989
+ ---------------------------------------------------
+2021-10-27 16:34:40: case.run starting 49035989
+ ---------------------------------------------------
+2021-10-27 16:35:18: model execution starting 49035989
+ ---------------------------------------------------
+2021-10-27 16:35:38: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-27 16:35:38: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.49035989.211027-163440
+ ---------------------------------------------------
+2021-10-27 16:39:26: build.clean starting 
+ ---------------------------------------------------
+2021-10-27 16:39:29: build.clean success 
+ ---------------------------------------------------
+2021-10-27 16:39:32: case.build starting 
+ ---------------------------------------------------
+2021-10-27 16:46:14: case.build success 
+ ---------------------------------------------------
+2021-10-27 16:46:33: case.submit starting 49037207
+ ---------------------------------------------------
+2021-10-27 16:46:33: case.submit success 49037207
+ ---------------------------------------------------
+2021-10-27 16:47:23: case.run starting 49037207
+ ---------------------------------------------------
+2021-10-27 16:47:53: model execution starting 49037207
+ ---------------------------------------------------
+2021-10-29 09:10:25: case.setup starting 
+ ---------------------------------------------------
+2021-10-29 09:10:32: case.setup success 
+ ---------------------------------------------------
+2021-10-29 09:10:39: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 09:10:43: build.clean success 
+ ---------------------------------------------------
+2021-10-29 09:10:46: case.build starting 
+ ---------------------------------------------------
+2021-10-29 09:17:28: case.build success 
+ ---------------------------------------------------
+2021-10-29 09:18:24: case.submit starting 49172646
+ ---------------------------------------------------
+2021-10-29 09:18:24: case.submit success 49172646
+ ---------------------------------------------------
+2021-10-29 09:18:38: case.run starting 49172646
+ ---------------------------------------------------
+2021-10-29 09:19:13: model execution starting 49172646
+ ---------------------------------------------------
+2021-10-29 09:46:15: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 09:46:17: build.clean success 
+ ---------------------------------------------------
+2021-10-29 09:46:20: case.build starting 
+ ---------------------------------------------------
+2021-10-29 09:52:42: case.build success 
+ ---------------------------------------------------
+2021-10-29 09:53:13: case.submit starting 49178037
+ ---------------------------------------------------
+2021-10-29 09:53:13: case.submit success 49178037
+ ---------------------------------------------------
+2021-10-29 10:01:30: case.run starting 49178037
+ ---------------------------------------------------
+2021-10-29 10:02:01: model execution starting 49178037
+ ---------------------------------------------------
+2021-10-29 10:05:36: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 10:05:38: build.clean success 
+ ---------------------------------------------------
+2021-10-29 10:05:42: case.build starting 
+ ---------------------------------------------------
+2021-10-29 10:11:29: case.build success 
+ ---------------------------------------------------
+2021-10-29 10:14:32: case.submit starting 49179737
+ ---------------------------------------------------
+2021-10-29 10:14:32: case.submit success 49179737
+ ---------------------------------------------------
+2021-10-29 10:14:38: case.run starting 49179737
+ ---------------------------------------------------
+2021-10-29 10:15:11: model execution starting 49179737
+ ---------------------------------------------------
+2021-10-29 10:23:40: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 10:23:42: build.clean success 
+ ---------------------------------------------------
+2021-10-29 10:23:45: case.build starting 
+ ---------------------------------------------------
+2021-10-29 10:30:03: case.build success 
+ ---------------------------------------------------
+2021-10-29 10:31:54: case.submit starting 49181266
+ ---------------------------------------------------
+2021-10-29 10:31:54: case.submit success 49181266
+ ---------------------------------------------------
+2021-10-29 10:32:03: case.run starting 49181266
+ ---------------------------------------------------
+2021-10-29 10:32:33: model execution starting 49181266
+ ---------------------------------------------------
+2021-10-29 10:44:47: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 10:44:49: build.clean success 
+ ---------------------------------------------------
+2021-10-29 10:44:53: case.build starting 
+ ---------------------------------------------------
+2021-10-29 10:50:31: case.build error 
+ERROR: BUILD FAIL: build e3sm failed, cat /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.bldlog.211029-104453
+ ---------------------------------------------------
+2021-10-29 10:55:57: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 10:55:59: build.clean success 
+ ---------------------------------------------------
+2021-10-29 10:56:04: case.build starting 
+ ---------------------------------------------------
+2021-10-29 11:01:56: case.build success 
+ ---------------------------------------------------
+2021-10-29 11:15:51: case.submit starting 49185744
+ ---------------------------------------------------
+2021-10-29 11:15:51: case.submit success 49185744
+ ---------------------------------------------------
+2021-10-29 11:15:56: case.run starting 49185744
+ ---------------------------------------------------
+2021-10-29 11:16:26: model execution starting 49185744
+ ---------------------------------------------------
+2021-10-29 11:42:57: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 11:43:00: build.clean success 
+ ---------------------------------------------------
+2021-10-29 11:43:03: case.build starting 
+ ---------------------------------------------------
+2021-10-29 11:45:22: case.build error 
+ERROR: BUILD FAIL: cmake config e3sm failed, cat /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.bldlog.211029-114303
+ ---------------------------------------------------
+2021-10-29 11:47:25: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 11:47:26: build.clean success 
+ ---------------------------------------------------
+2021-10-29 11:47:30: case.build starting 
+ ---------------------------------------------------
+2021-10-29 11:54:30: case.build success 
+ ---------------------------------------------------
+2021-10-29 11:54:55: case.submit starting 49190804
+ ---------------------------------------------------
+2021-10-29 11:54:55: case.submit success 49190804
+ ---------------------------------------------------
+2021-10-29 11:54:59: case.run starting 49190804
+ ---------------------------------------------------
+2021-10-29 11:55:28: model execution starting 49190804
+ ---------------------------------------------------
+2021-10-29 11:55:47: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-29 11:55:47: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.49190804.211029-115459
+ ---------------------------------------------------
+2021-10-29 12:13:14: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 12:13:16: build.clean success 
+ ---------------------------------------------------
+2021-10-29 12:13:19: case.build starting 
+ ---------------------------------------------------
+2021-10-29 12:22:10: case.build success 
+ ---------------------------------------------------
+2021-10-29 12:23:09: case.submit starting 49191957
+ ---------------------------------------------------
+2021-10-29 12:23:09: case.submit success 49191957
+ ---------------------------------------------------
+2021-10-29 12:23:57: case.run starting 49191957
+ ---------------------------------------------------
+2021-10-29 12:25:16: model execution starting 49191957
+ ---------------------------------------------------
+2021-10-29 12:25:53: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-29 12:25:53: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.49191957.211029-122357
+ ---------------------------------------------------
+2021-10-29 12:59:46: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 12:59:48: build.clean success 
+ ---------------------------------------------------
+2021-10-29 12:59:51: case.build starting 
+ ---------------------------------------------------
+2021-10-29 13:05:26: case.build success 
+ ---------------------------------------------------
+2021-10-29 13:05:46: case.submit starting 49196264
+ ---------------------------------------------------
+2021-10-29 13:05:46: case.submit success 49196264
+ ---------------------------------------------------
+2021-10-29 13:06:04: case.run starting 49196264
+ ---------------------------------------------------
+2021-10-29 13:06:33: model execution starting 49196264
+ ---------------------------------------------------
+2021-10-29 13:06:55: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-29 13:06:55: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.49196264.211029-130604
+ ---------------------------------------------------
+2021-10-29 14:03:50: build.clean starting 
+ ---------------------------------------------------
+2021-10-29 14:03:52: build.clean success 
+ ---------------------------------------------------
+2021-10-29 14:03:55: case.build starting 
+ ---------------------------------------------------
+2021-10-29 14:11:07: case.build success 
+ ---------------------------------------------------
+2021-10-29 14:11:25: case.submit starting 49201422
+ ---------------------------------------------------
+2021-10-29 14:11:25: case.submit success 49201422
+ ---------------------------------------------------
+2021-10-29 14:11:30: case.run starting 49201422
+ ---------------------------------------------------
+2021-10-29 14:12:00: model execution starting 49201422
+ ---------------------------------------------------
+2021-10-29 14:12:26: model execution error 
+ERROR: Command: 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed with error '' from dir '/global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run'
+ ---------------------------------------------------
+2021-10-29 14:12:26: case.run error 
+ERROR: RUN FAIL: Command 'srun  --label  -n 1 -N 1 -c 272   --cpu_bind=cores   -m plane=1 /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/bld/e3sm.exe   >> e3sm.log.$LID 2>&1 ' failed
+See log file for details: /global/cscratch1/sd/yazbeck/e3sm_scratch/cori-knl/test_case_site_v3/run/e3sm.log.49201422.211029-141130
+ ---------------------------------------------------
