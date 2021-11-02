@@ -51,4 +51,4 @@ EOF
 ./xmlchange -file env_run.xml -id STOP_OPTION -val nyears
 ./xmlchange -file env_run.xml -id STOP_N -val 37
 ./xmlchange -file env_workflow.xml JOB_QUEUE=debug
-./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:10:00
+./xmlchange -file env_workflow.xml JOB_WALLCLOCK_TIME=00:11:00
