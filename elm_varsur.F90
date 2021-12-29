@@ -39,7 +39,12 @@ module elm_varsur
   real(r8), pointer :: wt_glc_mec(:,:,:)   
 
   ! subgrid glacier_mec sfc elevation
-  real(r8), pointer :: topo_glc_mec(:,:,:) 
+  real(r8), pointer :: topo_glc_mec(:,:,:)
+
+  ! for wetland landunit, weight of each wft on the landunit (adds to 1.0 on the
+  ! landunit for all all grid cells, even! those without any natural pft)
+  ! (second dimension goes wft_lb:wft_ub)
+  real(r8), pointer :: wt_wft(:,:,:)
   
   ! Topounit related poiters
   real(r8), pointer :: num_tunit_per_grd(:)   ! Topounit area fraction

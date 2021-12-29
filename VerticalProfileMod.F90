@@ -128,6 +128,8 @@ contains
          cinput_rootfr(begp:endp, :)     = 0._r8
          col_cinput_rootfr(begc:endc, :) = 0._r8
 
+         write(iulog,*)'1 - cinput_rootfr',cinput_rootfr
+
          if ( exponential_rooting_profile ) then
             if ( .not. pftspecific_rootingprofile ) then
                ! define rooting profile from exponential parameters
@@ -135,6 +137,7 @@ contains
                   do fp = 1,num_soilp
                      p = filter_soilp(fp)
                      cinput_rootfr(p,j) = exp(-rootprof_exp * zsoi(j)) / dzsoi_decomp(j)
+                     write(iulog,*)'2 - j,p,cinput_rootfr(p,j)',j,p,cinput_rootfr(p,j)
                   end do
                end do
             else
@@ -151,6 +154,7 @@ contains
                              rootprof_beta(veg_pp%itype(p)) ** (zisoi(j)*100._r8) ) &
                              / dzsoi_decomp(j)
                            rootfr_tot = rootfr_tot + cinput_rootfr(p,j) * dzsoi_decomp(j)
+                           write(iulog,*)'3 - j,p,c,veg_pp%itype(p),cinput_rootfr(p,j),rootfr_tot',j,p,c,veg_pp%itype(p),cinput_rootfr(p,j),rootfr_tot
                         else
                            cinput_rootfr(p,j) = 0._r8
                         end if
@@ -158,10 +162,12 @@ contains
                      if (nlevbed < nlevdecomp) then
                         do j = 1, nlevbed
                            cinput_rootfr(p,j) = cinput_rootfr(p,j) / rootfr_tot
+                           write(iulog,*)'4 - j,p,cinput_rootfr(p,j)',j,p,cinput_rootfr(p,j)
                         end do
                      end if
                   else
                      cinput_rootfr(p,1) = 1._r8 / dzsoi_decomp(1)
+                     write(iulog,*)'5- p,cinput_rootfr(p,1)',p,cinput_rootfr(p,1)
                   endif
                end do
             endif
@@ -171,6 +177,7 @@ contains
                do fp = 1,num_soilp
                   p = filter_soilp(fp)
                   cinput_rootfr(p,j) = rootfr(p,j) / dzsoi_decomp(j)
+                  write(iulog,*)'6 - j,p,cinput_rootfr(p,j)',j,p,cinput_rootfr(p,j)
                end do
             end do
          endif
@@ -191,6 +198,7 @@ contains
                   surface_prof_tot = surface_prof_tot + surface_prof(j) * dzsoi_decomp(j)
                end if
             end do
+            write(iulog,*)'altmax_lastyear_indx(c),rootfr_tot,surface_prof_tot',altmax_lastyear_indx(c),rootfr_tot,surface_prof_tot
             if ( (altmax_lastyear_indx(c) > 0) .and. (rootfr_tot > 0._r8) .and. (surface_prof_tot > 0._r8) ) then
                ! where there is not permafrost extending to the surface, integrate the profiles over the active layer
                ! this is equivalnet to integrating over all soil layers outside of permafrost regions
@@ -203,12 +211,15 @@ contains
                         leaf_prof(p,j) = exp(log(surface_prof(j)) * zisoi(nlevdecomp) / zisoi(nlevbed))/ &
                         	surface_prof_tot
                         stem_prof(p,j) = exp(log(surface_prof(j)) * zisoi(nlevdecomp) / zisoi(nlevbed))/ &
-                        	surface_prof_tot
+                             surface_prof_tot
+                        write(iulog,*)'7 - j,p,leaf_prof(p,j)',j,p,leaf_prof(p,j)
                      else
                         leaf_prof(p,j) = surface_prof(j)/ surface_prof_tot
                         stem_prof(p,j) = surface_prof(j)/ surface_prof_tot
+                        write(iulog,*)'8 - j,p,leaf_prof(p,j)',j,p,leaf_prof(p,j)
                      end if
                   end if
+                  write(iulog,*)'10- j,p,froot_prof(p,j)',j,p,froot_prof(p,j)
                end do
             else
                ! if fully frozen, or no roots, put everything in the top layer
@@ -216,6 +227,7 @@ contains
                croot_prof(p,1) = 1./dzsoi_decomp(1)
                leaf_prof(p,1) = 1./dzsoi_decomp(1)
                stem_prof(p,1) = 1./dzsoi_decomp(1)
+               write(iulog,*)'11 - p,leaf_prof(p,1)',p,leaf_prof(p,1)
             endif
 
          end do
@@ -232,6 +244,8 @@ contains
                   p = col_pp%pfti(c) + pi - 1
                   do j = 1,nlevdecomp
                      col_cinput_rootfr(c,j) = col_cinput_rootfr(c,j) + cinput_rootfr(p,j) * veg_pp%wtcol(p)
+                     write(iulog,*)'12 - j,c,p, col_cinput_rootfr(c,j),cinput_rootfr(p,j),veg_pp%wtcol(p)',&
+                     j,c,p, col_cinput_rootfr(c,j),cinput_rootfr(p,j),veg_pp%wtcol(p)     
                   end do
                end if
             end do
@@ -248,6 +262,8 @@ contains
             do j = 1, min(alt_ind, nlevbed)
                rootfr_tot = rootfr_tot + col_cinput_rootfr(c,j) * dzsoi_decomp(j)
                surface_prof_tot = surface_prof_tot + surface_prof(j) * dzsoi_decomp(j)
+               write(iulog,*)'13 - j,c,rootfr_tot,col_cinput_rootfr,dzsoi_decomp,surface_prof_tot,surface_prof',&
+                    j,c,rootfr_tot,col_cinput_rootfr(c,j),dzsoi_decomp(j),surface_prof_tot,surface_prof(j)
             end do
             if ( (altmax_lastyear_indx(c) > 0) .and. (rootfr_tot > 0._r8) .and. (surface_prof_tot > 0._r8) ) then
                do j = 1,  min(max(altmax_lastyear_indx(c), 1), nlevdecomp)
@@ -255,12 +271,15 @@ contains
                   if (j <= nlevbed) then
                      ndep_prof(c,j) = surface_prof(j)/ surface_prof_tot
                      pdep_prof(c,j) = surface_prof(j)/ surface_prof_tot
+                     write(iulog,*)'14 - j,c,surface_prof(j),surface_prof_tot,ndep_prof(c,j)',&
+                          j,c,surface_prof(j),surface_prof_tot,ndep_prof(c,j)
                   end if
                end do
             else
                nfixation_prof(c,1) = 1./dzsoi_decomp(1)
                ndep_prof(c,1) = 1./dzsoi_decomp(1)
-               pdep_prof(c,1) = 1./dzsoi_decomp(1) 
+               pdep_prof(c,1) = 1./dzsoi_decomp(1)
+               write(iulog,*)'15 - nfixation_prof(c,1)',nfixation_prof(c,1)
             endif
          end do
 

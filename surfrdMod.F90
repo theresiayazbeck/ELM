@@ -761,7 +761,11 @@ contains
     
     call check_dim(ncid, 'nlevsoi', nlevsoifl)
 
-       ! Obtain non-grid surface properties of surface dataset other than percent pft
+    ! Obtain non-grid surface properties of surface dataset other than percent pft
+
+    !call ncd_io(ncid=ncid, varname='PCT_WETLAND', flag='read', data=pctwet, &
+         !dim1name=grlnd, readvar=readvar)
+    !if (.not. readvar) call endrun( msg=' ERROR: PCT_WETLAND  NOT on surfdata file'//errMsg(__FILE__, __LINE__))
 
     call ncd_io(ncid=ncid, varname='PCT_LAKE'   , flag='read', data=pctlak, &
          dim1name=grlnd, readvar=readvar)
@@ -868,6 +872,8 @@ contains
     do nl = begg,endg
 
          wt_lunit(nl,:,istdlak)     = pctlak(nl,:)/100._r8
+
+         !wt_lunit(nl,:,istwet)      = pctwet(nl,:)/100._r8
 
          wt_lunit(nl,:,istice)      = pctgla(nl,:)/100._r8
 
@@ -1024,7 +1030,7 @@ contains
     use elm_varctl      , only : irrigate
     use elm_varpar      , only : natpft_lb, natpft_ub, natpft_size, cft_lb, cft_ub, cft_size
     use elm_varpar      , only : crop_prog
-    use elm_varsur      , only : wt_lunit, wt_nat_patch, wt_cft
+    use elm_varsur      , only : wt_lunit, wt_nat_patch, wt_cft, wt_wft
     use landunit_varcon , only : istsoil, istcrop, istwet
     use pftvarcon       , only : nc3crop, nc3irrig, npcropmin
     use pftvarcon       , only : ncorn, ncornirrig, nsoybean, nsoybeanirrig
@@ -1163,6 +1169,8 @@ contains
        !call check_sums_equal_1_3d(wt_cft, begg, 'wt_cft', subname,ntpu)
        call check_sums_equal_1_3d(wt_cft, begg, 'wt_cft', subname)
     end if
+
+    wt_wft = 1.0_r8 !hardcoded wt_wft for now but in the future it will be read from input surface file
 
   end subroutine surfrd_veg_all
 

@@ -422,23 +422,28 @@ contains
     num_special_col = 0
     do c = bounds%begc, bounds%endc
        l = col_pp%landunit(c)
+       write(iulog,*)'Inside set column filters loop c,col_pp%landunit(c) = ',c,col_pp%landunit(c)
+       write(iulog,*)'lun_pp%ifspecial(l)',lun_pp%ifspecial(l)
        if (lun_pp%ifspecial(l)) then
           num_special_col = num_special_col + 1
           special_col(num_special_col) = c
        end if
     end do
+    write(iulog,*)'After loop end num_special_col,special_col',num_special_col,special_col
 
     ! Set patch filters
 
     num_special_patch = 0
     do p = bounds%begp,bounds%endp
        l = veg_pp%landunit(p)
+       write(iulog,*)'Inside set patch filters loop p,veg_pp%landunit(p) = ',p,veg_pp%landunit(p)
+       write(iulog,*)'lun_pp%ifspecial(l)',lun_pp%ifspecial(l)
        if (lun_pp%ifspecial(l)) then
           num_special_patch = num_special_patch + 1
           special_patch(num_special_patch) = p
        end if
     end do
-
+    write(iulog,*)'After loop end num_special_patch,special_patch',num_special_patch,special_patch
 
     if ( .not. use_fates ) then
        !-----------------------------------------------

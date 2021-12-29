@@ -7744,6 +7744,7 @@ contains
     allocate(this%f_n2o_denit                     (begc:endc))                   ; this%f_n2o_denit                    (:)   = nan
     allocate(this%f_n2o_denit_vr                  (begc:endc,1:nlevdecomp_full)) ; this%f_n2o_denit_vr                 (:,:) = nan
     allocate(this%f_n2o_nit                       (begc:endc))                   ; this%f_n2o_nit                      (:)   = nan
+    write(iulog,*)'1 - this%f_n2o_nit',this%f_n2o_nit
     allocate(this%f_n2o_nit_vr                    (begc:endc,1:nlevdecomp_full)) ; this%f_n2o_nit_vr                   (:,:) = nan
     allocate(this%sminn_no3_input_vr              (begc:endc,1:nlevdecomp_full)) ; this%sminn_no3_input_vr             (:,:) = nan
     allocate(this%sminn_nh4_input_vr              (begc:endc,1:nlevdecomp_full)) ; this%sminn_nh4_input_vr             (:,:) = nan
@@ -8340,9 +8341,11 @@ contains
          ptr_col=this%net_nmin)
 
     this%f_n2o_nit(begc:endc) = spval
+    write(iulog,*)'2 - this%f_n2o_nit',this%f_n2o_nit
     call hist_addfld1d (fname='F_N2O_NIT', units='gN/m^2/s', &
          avgflag='A', long_name='nitrification N2O flux', &
          ptr_col=this%f_n2o_nit)
+    write(iulog,*)'3 - this%f_n2o_nit',this%f_n2o_nit
 
     this%f_n2o_denit(begc:endc) = spval
     call hist_addfld1d (fname='F_N2O_DENIT', units='gN/m^2/s', &
@@ -8771,6 +8774,7 @@ contains
        this%pot_f_denit(i)            = value_column
        this%f_n2o_denit(i)            = value_column
        this%f_n2o_nit(i)              = value_column
+       write(iulog,*)'4 - i,this%f_n2o_nit(i)',i,this%f_n2o_nit(i)
        this%smin_no3_leached(i)       = value_column
        this%smin_no3_runoff(i)        = value_column
 
@@ -9027,6 +9031,8 @@ contains
              this%f_n2o_nit(c) = &
                   this%f_n2o_nit(c) + &
                   this%f_n2o_nit_vr(c,j) * dzsoi_decomp(j)
+             write(iulog,*)'5 - c,this%f_n2o_nit(c)',c,this%f_n2o_nit(c)
+             write(iulog,*)'5 - c,j,this%f_n2o_nit_vr(c,j),dzsoi_decomp(j)',c,j,this%f_n2o_nit_vr(c,j),dzsoi_decomp(j)
 
              this%f_n2o_denit(c) = &
                   this%f_n2o_denit(c) + &
@@ -9300,6 +9306,7 @@ contains
        ! for balance-checking
        this%denit(c)     = this%f_ngas_denit(c)
        this%f_n2o_nit(c) = this%f_ngas_decomp(c) + this%f_ngas_nitri(c)
+       write(iulog,*)'6 - c,this%f_ngas_decomp(c),this%f_ngas_nitri(c),this%f_n2o_nit(c)',c,this%f_ngas_decomp(c),this%f_ngas_nitri(c),this%f_n2o_nit(c)
     end do !fc = 1,num_soilc
     ! summarize at column-level vertically-resolved littering/removal for PFLOTRAN bgc input needs
     ! first it needs to save the total column-level N rate btw plant pool and decomposible pools at previous time step
